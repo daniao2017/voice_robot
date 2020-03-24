@@ -1,0 +1,17 @@
+<launch>
+<node name="xf_tts_node" pkg = "voice_system" type = "xf_tts_node" output = "screen">
+</node>
+<node name="xf_asr_node" pkg = "voice_system" type = "xf_asr_node" output = "screen">
+</node>
+<node name="plug_node_py" pkg = "voice_system" type = "plug.py" output = "screen">
+</node>
+<node name="tuling_node_py" pkg = "voice_system" type = "tuling_f.py" output = "screen">
+</node>
+<node name="email_node_py" pkg = "voice_system" type = "email_f.py" output = "screen">
+</node>
+<node name="translate_node_py" pkg = "voice_system" type = "baidu_tl.py" output = "screen">
+</node>
+<node name="music_node_py" pkg = "voice_system" type = "music.py" output = "screen">
+</node>
+</launch>
+
