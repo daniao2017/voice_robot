@@ -1,6 +1,6 @@
 # voice_robot
 💖小刘同学是一款语音交互的机器人，作者小刘同学。
-
+演示视频如下：[小刘同学二代的全部功能演示](https://www.bilibili.com/video/BV1n54y1D7Bc)
 功能如下:
 
 基本的语言交互机器人
